@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
-<body>
-    <h2 class="text-center">Table</h2>
+<body class="bg-gradient-to-br from-indigo-100 to-purple-100 min-h-screen">
+     <div class="container mx-auto px-4 py-8" >
+        <!-- header -->
+         <div class="flex flex-col  md:flex-row justify-between items-center mb-8">
+            <div class="">
+                <h1 class="text-3xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent mb-2">User Management</h1>
+                <p class="text-gray-600">Manage your users efficiently</p>
+            </div>
+            <!-- search Bar -->
+            <div class="w-full md:w-64 mt-4 md:mt-0 relative">
+                <input type="text" placeholder="Search Userss...." class="w-full pl-10 pr-4 py-3 rounded-xl border border-purple-200
+                focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent shadow-sm">
+
+                <div class="absolute top-3 left-3.5 text-indigo-400">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+         </div>
+     </div>
 </body>
 </html>
